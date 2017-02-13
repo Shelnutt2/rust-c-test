@@ -1,0 +1,12 @@
+[package]
+name = "c-to-rust"
+version = "0.1.0"
+authors = ["Seth Shelnutt <Shelnutt2@gmail.com>"]
+
+[lib]
+name = "rust_sum"
+crate-type = ["dylib"]
+
+[dependencies]
+libc = "0.2.20"
+rayon = "*"
